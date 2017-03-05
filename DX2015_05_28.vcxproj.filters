@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="polygon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="score.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="door.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bg1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bg2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bg3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="game1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="game2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="game3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="timebg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="press.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="title1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bulletenemy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="avatar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="talk.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="explosion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="life.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prop.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="key.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="talk1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="talk2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="explosionenemy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lifeenemy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prop2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="computer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="talk3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="talk4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="talk5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="talk6.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="talk7.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="talk8.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="talk9.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jieshao.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jieshaobg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="caiquan.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pause.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="polygon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="result.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="score.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="door.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bg1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bg2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bg3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="game1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="game2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="game3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="timebg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="press.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="title1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bulletenemy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="avatar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="talk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="explosion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="life.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="prop.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="key.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="talk1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="talk2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="explosionenemy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lifeenemy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="prop2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="computer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="talk3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="talk4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="talk5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="talk6.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="talk7.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="talk8.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="talk9.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jieshao.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jieshaobg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="caiquan.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pause.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

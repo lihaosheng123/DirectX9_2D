@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BB82483A-456C-41E0-BE85-50E14B991663}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>DX2015_05_28</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)</OutDir>
+    <ReferencePath>D:\dxsdk2010\Lib\x86;$(ReferencePath)</ReferencePath>
+    <LibraryPath>D:\dxsdk2010\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxguid.lib;winmm.lib;dinput8.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="avatar.cpp" />
+    <ClCompile Include="bg1.cpp" />
+    <ClCompile Include="bg2.cpp" />
+    <ClCompile Include="bg3.cpp" />
+    <ClCompile Include="bullet.cpp" />
+    <ClCompile Include="bulletenemy.cpp" />
+    <ClCompile Include="caiquan.cpp" />
+    <ClCompile Include="computer.cpp" />
+    <ClCompile Include="effect.cpp" />
+    <ClCompile Include="enemy.cpp" />
+    <ClCompile Include="enemy2.cpp" />
+    <ClCompile Include="enemy3.cpp" />
+    <ClCompile Include="explosion.cpp" />
+    <ClCompile Include="explosionenemy.cpp" />
+    <ClCompile Include="fade.cpp" />
+    <ClCompile Include="door.cpp" />
+    <ClCompile Include="game1.cpp" />
+    <ClCompile Include="game2.cpp" />
+    <ClCompile Include="game3.cpp" />
+    <ClCompile Include="input.cpp" />
+    <ClCompile Include="jieshao.cpp" />
+    <ClCompile Include="jieshaobg.cpp" />
+    <ClCompile Include="key.cpp" />
+    <ClCompile Include="life.cpp" />
+    <ClCompile Include="lifeenemy.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="pause.cpp" />
+    <ClCompile Include="polygon.cpp" />
+    <ClCompile Include="press.cpp" />
+    <ClCompile Include="prop.cpp" />
+    <ClCompile Include="prop2.cpp" />
+    <ClCompile Include="result.cpp" />
+    <ClCompile Include="score.cpp" />
+    <ClCompile Include="sound.cpp" />
+    <ClCompile Include="talk.cpp" />
+    <ClCompile Include="talk1.cpp" />
+    <ClCompile Include="talk2.cpp" />
+    <ClCompile Include="talk3.cpp" />
+    <ClCompile Include="talk4.cpp" />
+    <ClCompile Include="talk5.cpp" />
+    <ClCompile Include="talk6.cpp" />
+    <ClCompile Include="talk7.cpp" />
+    <ClCompile Include="talk8.cpp" />
+    <ClCompile Include="talk9.cpp" />
+    <ClCompile Include="title.cpp" />
+    <ClCompile Include="timebg.cpp" />
+    <ClCompile Include="title1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="avatar.h" />
+    <ClInclude Include="bg1.h" />
+    <ClInclude Include="bg2.h" />
+    <ClInclude Include="bg3.h" />
+    <ClInclude Include="bullet.h" />
+    <ClInclude Include="bulletenemy.h" />
+    <ClInclude Include="caiquan.h" />
+    <ClInclude Include="computer.h" />
+    <ClInclude Include="effect.h" />
+    <ClInclude Include="enemy.h" />
+    <ClInclude Include="enemy2.h" />
+    <ClInclude Include="enemy3.h" />
+    <ClInclude Include="explosion.h" />
+    <ClInclude Include="explosionenemy.h" />
+    <ClInclude Include="fade.h" />
+    <ClInclude Include="door.h" />
+    <ClInclude Include="game1.h" />
+    <ClInclude Include="game2.h" />
+    <ClInclude Include="game3.h" />
+    <ClInclude Include="input.h" />
+    <ClInclude Include="jieshao.h" />
+    <ClInclude Include="jieshaobg.h" />
+    <ClInclude Include="key.h" />
+    <ClInclude Include="life.h" />
+    <ClInclude Include="lifeenemy.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="pause.h" />
+    <ClInclude Include="polygon.h" />
+    <ClInclude Include="press.h" />
+    <ClInclude Include="prop.h" />
+    <ClInclude Include="prop2.h" />
+    <ClInclude Include="result.h" />
+    <ClInclude Include="score.h" />
+    <ClInclude Include="sound.h" />
+    <ClInclude Include="talk.h" />
+    <ClInclude Include="talk1.h" />
+    <ClInclude Include="talk2.h" />
+    <ClInclude Include="talk3.h" />
+    <ClInclude Include="talk4.h" />
+    <ClInclude Include="talk5.h" />
+    <ClInclude Include="talk6.h" />
+    <ClInclude Include="talk7.h" />
+    <ClInclude Include="talk8.h" />
+    <ClInclude Include="talk9.h" />
+    <ClInclude Include="timebg.h" />
+    <ClInclude Include="title.h" />
+    <ClInclude Include="title1.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
